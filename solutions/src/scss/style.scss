@@ -1,0 +1,40 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+/* Global
+----------------------------*/
+
+body {
+  margin-top: 1rem;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.dicebears-avatar-widget {
+  .avatars {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: 0 auto;
+
+    .avatar {
+      flex: 1;
+      flex-basis: 33.33%;
+      margin-bottom: 20px;
+
+      img {
+        border: 4px solid #c0c0c0;
+        padding: 5px;
+        max-width: 90%;
+      }
+    }
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}
